@@ -65,4 +65,29 @@ Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
 ![Screnshoot books](image/image12.png)
 
 Praktikum 7: Manajemen Future dengan FutureBuilder
+Soal 13: 
+Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+jawab: 
 
+Soal 14:
+Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+jawab:
+memblokir situs ini dari mengakses lokasi, maka akan tampil seperti pada gambar dibawah
+![Screnshoot books](image/image13.png)
+
+Praktikum 8: Navigation route dengan Future Function
+Soal 15:
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+Silakan ganti dengan warna tema favorit Anda.
+
+Soal 16:
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+![Screnshoot books](image/image14.png)
+ketika di klik change color, akan menampilkan 3 button dengan 3 warna yaitu red, green, dan blue
+![Screnshoot books](image/image15.png)
+jika button red di klik maka akan tampil seperti gambar dibawah ini:
+![Screnshoot books](image/image16.png)
+![Screnshoot books](image/image17.png)
+![Screnshoot books](image/image18.png)
+
+Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
