@@ -91,3 +91,14 @@ jika button red di klik maka akan tampil seperti gambar dibawah ini:
 ![Screnshoot books](image/image18.png)
 
 Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+
+Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
+Soal 17:
+Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+![Screnshoot books](image/image19.png)
+
+Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+
+![Screnshoot books](image/image20.png)
+![Screnshoot books](image/image21.png)
+![Screnshoot books](image/image22.png)
