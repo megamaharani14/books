@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
-import 'package:async/async.dart';
+// import 'package:async/async.dart';
 
 void main() {
   runApp(const MyApp());
@@ -57,8 +57,26 @@ class _FuturePageState extends State<FuturePage> {
     });
   }
   
+  Future returnError() async{
+    await Future.delayed(const Duration(seconds: 2));
+    throw ('Something terrible happened!');
+  }
 
-  late Completer completer;
+  Future handleError() async{
+    try{
+      await returnError();
+    }
+    catch (error){
+      setState(() {
+        result = error.toString();
+      });
+    }
+    finally {
+      print('Complete');
+    }
+  }
+
+late Completer completer;
 
 Future getNumber() {
   completer = Completer<int>();
@@ -122,7 +140,19 @@ Widget build(BuildContext context) {
           ElevatedButton(
             child: const Text('GO!'),
             onPressed: () {
-              returnFG();
+              handleError();
+              // returnError()
+              // .then((value){
+              //   setState(() {
+              //     result = 'Success';
+              //   });
+              // }).catchError((onError){
+              //   setState(() {
+              //     result = onError.toString();
+              //   });
+              // }).whenComplete(() => print('Complete'));
+            
+              // returnFG();
               // getNumber().then((value) {
               //   setState(() {
               //     result = value.toString();

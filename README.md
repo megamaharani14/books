@@ -41,4 +41,14 @@ Dalam 3 detik akan menampilkan angka 6 lebih cepat dibandingkan dengan praktikum
 
 Soal 8:
 Jelaskan maksud perbedaan kode langkah 1 dan 4!
-jawab:
+jawab: FutureGroup dalam penggunaannya dengan menambahkan future secara bertahap sedangkan future.wait daftar futurenya statis
+
+Praktikum 5: Menangani Respon Error pada Async Code
+Soal 9:
+![Screnshoot books](image/image7.png)
+![Screnshoot books](image/image8.png)
+
+Soal 10:
+![Screnshoot books](image/image9.png)
+Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+jawab: then() digunakan untuk menangani hasil dari future dan penanganan error dengan cathError. pola dengan async dan await untuk menangani future, error dapat ditangani dengan blok try-catch.
