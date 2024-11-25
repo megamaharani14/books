@@ -1,4 +1,6 @@
+import 'package:books/geolocation.dart';
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
 import 'dart:async';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const FuturePage(),
+      home: const LocationScreen(),
     );
   }
 }
@@ -132,6 +134,7 @@ Widget build(BuildContext context) {
     appBar: AppBar(
       title: const Text('Back from the Future'),
       backgroundColor: Colors.blue,
+      foregroundColor: Colors.white,
     ),
     body: Center(
       child: Column(

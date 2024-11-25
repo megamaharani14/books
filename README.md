@@ -52,3 +52,17 @@ Soal 10:
 ![Screnshoot books](image/image9.png)
 Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
 jawab: then() digunakan untuk menangani hasil dari future dan penanganan error dengan cathError. pola dengan async dan await untuk menangani future, error dapat ditangani dengan blok try-catch.
+
+Praktikum 6: Menggunakan Future dengan StatefulWidget
+Soal 11: 
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+![Screnshoot books](image/image10.png)
+
+Soal 12:
+Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+![Screnshoot books](image/image11.png)
+Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+![Screnshoot books](image/image12.png)
+
+Praktikum 7: Manajemen Future dengan FutureBuilder
+
