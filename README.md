@@ -62,17 +62,19 @@ Soal 12:
 Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
 ![Screnshoot books](image/image11.png)
 Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Jawab: mendapatkan koordinat gps karena pengguna geolocator yang akan memunculkan notifikasi lokasi kepada pengguna.
 ![Screnshoot books](image/image12.png)
 
 Praktikum 7: Manajemen Future dengan FutureBuilder
 Soal 13: 
 Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
-jawab: 
+jawab: perbedaannya pada praktikum sebelumnya pembaruan tampilan dilakukan secara manual menggunakan setState() sehingga pengelolaan uI membutuhkan logika tambahan. Namun dengan menggunakan FutureBuilder, pembaruan UI menjadi lebih otomatis mengelola status data seperti waiting atau done.
 
 Soal 14:
 Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
-jawab:
-memblokir situs ini dari mengakses lokasi, maka akan tampil seperti pada gambar dibawah
+jawab: UI pada langkah baru lebih rapi karena menampilkan data lokasi seperti latitude dan longitude secara terformat, tidak hanya string dari objek position. Selain itu, juga menambahkan pesan kesalahan yang jelas jika terjadi error.
+
+apabila memblokir situs ini dari mengakses lokasi, maka akan tampil seperti pada gambar dibawah
 ![Screnshoot books](image/image13.png)
 
 Praktikum 8: Navigation route dengan Future Function
@@ -87,10 +89,16 @@ ketika di klik change color, akan menampilkan 3 button dengan 3 warna yaitu red,
 ![Screnshoot books](image/image15.png)
 jika button red di klik maka akan tampil seperti gambar dibawah ini:
 ![Screnshoot books](image/image16.png)
+jika button green di klik maka akan tampil seperti gambar dibawah ini:
 ![Screnshoot books](image/image17.png)
+jika button blue di klik maka akan tampil seperti gambar dibawah ini:
 ![Screnshoot books](image/image18.png)
 
 Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+![Screnshoot books](image/image23.png)
+![Screnshoot books](image/image24.png)
+![Screnshoot books](image/image25.png)
+
 
 Praktikum 9: Memanfaatkan async/await dengan Widget Dialog
 Soal 17:
@@ -98,7 +106,6 @@ Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
 ![Screnshoot books](image/image19.png)
 
 Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
-
 ![Screnshoot books](image/image20.png)
 ![Screnshoot books](image/image21.png)
 ![Screnshoot books](image/image22.png)

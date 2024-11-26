@@ -14,7 +14,7 @@ class _NavigationDialogScreenState extends State<NavigationDialogScreen> {
     return Scaffold(
       backgroundColor: color,
       appBar: AppBar(
-        title: const Text('Navigation First Screen'),
+        title: const Text('Navigation First Screen - Mega '),
         foregroundColor: Colors.white,
         backgroundColor: Colors.blue,
 
@@ -37,19 +37,19 @@ class _NavigationDialogScreenState extends State<NavigationDialogScreen> {
           title: const Text('Very important question'),
           content: const Text('Please choose a color'),
           actions: [
+            TextButton(child: Text('pink'),
+            onPressed: (){
+              color = Colors.pinkAccent.shade700;
+              Navigator.pop(context, color);
+            }),
             TextButton(child: Text('purple'),
             onPressed: (){
               color = Colors.purple.shade700;
               Navigator.pop(context, color);
             }),
-            TextButton(child: Text('grey'),
+            TextButton(child: Text('brown'),
             onPressed: (){
-              color = Colors.grey.shade700;
-              Navigator.pop(context, color);
-            }),
-            TextButton(child: Text('lime'),
-            onPressed: (){
-              color = Colors.lime.shade700;
+              color = Colors.brown.shade700;
               Navigator.pop(context, color);
             }),
           ],
